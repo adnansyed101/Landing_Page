@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+/* Utility CSS */
+
+/* Background color */
+.bg-primary {
+  background-color: #1f2937;
+}
+
+/* Text css */
+.primary-text-color {
+  color: #f9faf8;
+}
+
+.secondary-text-color {
+  color: #e5e7eb;
+}
+
+.extra-bold {
+  font-weight: 900;
+}
+
+.big-text {
+  font-size: 48px;
+}
+
+.mid-text {
+  font-size: 36px;
+}
+
+.small-text {
+  font-size: 24px;
+}
+
+.xsmall-text {
+  font-size: 18px;
+}
+
+.small-padding {
+  padding: 16px;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+/* Flex css */
+.flex {
+  display: flex;
+}
+
+.x-center {
+  align-items: center;
+}
+
+.y-center {
+  justify-content: center;
+}
+
+.xy-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.gap {
+  gap: 12px;
+}
+
+.big-gap {
+    gap: 36px;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+/* CSS */
+/* Hero */
+
+.hero .container{
+    height: 500px;
+}
+
+
+
+.hero-image {
+    height: 300px;
+    width: 900px;
+    background-color: rgba(229, 231, 245, .7);
+    margin-left: 24px;
+}
