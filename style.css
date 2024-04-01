@@ -120,7 +120,7 @@ body {
 
 .random {
   margin: 50px 0;
-  height: 400px;
+  height: 500px;
 }
 
 .random .container {
@@ -137,8 +137,9 @@ body {
   width: 180px;
 }
 
-.box {
+.random-image {
   height: 200px;
+  width: auto;
   border-radius: 10px;
   border: 4px solid #3882f6;
   margin-bottom: 10px;
