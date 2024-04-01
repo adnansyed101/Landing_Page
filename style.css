@@ -110,8 +110,8 @@ body {
 }
 
 .hero-image {
-  height: 300px;
-  width: 900px;
+  height: 400px;
+  width: auto;
   background-color: rgba(229, 231, 245, 0.7);
   margin-left: 24px;
 }
